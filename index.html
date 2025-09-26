@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Michael Brown - Data Analytics & Psychology Researcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">JMB</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">James Michael Brown</h1>
+            <p class="hero-subtitle">Data Analytics & Biological Psychology Researcher</p>
+            <p class="hero-description">
+                PhD in Biological Psychology | MS in Data Analytics & Applied Statistics
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a researcher at the intersection of data science and psychology, with a PhD in Biological Psychology
+                        and a Master's degree in Data Analytics and Applied Statistics. My work focuses on leveraging advanced
+                        statistical methods and data visualization techniques to understand complex behavioral and neurobiological patterns.
+                    </p>
+                    <p>
+                        My research interests include computational neuroscience, predictive modeling in behavioral science,
+                        and the application of machine learning techniques to psychological research. I am passionate about
+                        transforming complex data into meaningful insights that advance our understanding of human cognition and behavior.
+                    </p>
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">R</span>
+                            <span class="skill-tag">SPSS</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Statistical Modeling</span>
+                            <span class="skill-tag">Data Visualization</span>
+                            <span class="skill-tag">Experimental Design</span>
+                            <span class="skill-tag">Neuroimaging Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>PhD in Biological Psychology</h4>
+                        <p class="education-details">Focus on neurocognitive processes and behavioral analysis</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>MS in Data Analytics & Applied Statistics</h4>
+                        <p class="education-details">Advanced statistical methods and predictive modeling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="research">Research</button>
+                <button class="category-btn" data-category="data-viz">Data Visualization</button>
+                <button class="category-btn" data-category="analytics">Analytics</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="research">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Cognitive Load Assessment</h3>
+                        <p>Machine learning models for predicting cognitive load from physiological signals</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">ML</span>
+                            <span class="project-tag">Signal Processing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="data-viz">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Neural Activity Visualization</h3>
+                        <p>Interactive visualizations of neural network patterns using D3.js</p>
+                        <div class="project-tags">
+                            <span class="project-tag">D3.js</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Neuroscience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="analytics">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Behavioral Pattern Analysis</h3>
+                        <p>Statistical analysis of behavioral patterns in clinical populations</p>
+                        <div class="project-tags">
+                            <span class="project-tag">R</span>
+                            <span class="project-tag">Statistics</span>
+                            <span class="project-tag">Clinical Research</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="research">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>EEG Signal Classification</h3>
+                        <p>Deep learning approach to classify EEG signals for BCI applications</p>
+                        <div class="project-tags">
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">BCI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="data-viz">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Research Dashboard</h3>
+                        <p>Interactive dashboard for exploring psychological research data</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Plotly</span>
+                            <span class="project-tag">Dash</span>
+                            <span class="project-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="analytics">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Meta-Analysis Pipeline</h3>
+                        <p>Automated pipeline for conducting meta-analyses in psychology research</p>
+                        <div class="project-tags">
+                            <span class="project-tag">R</span>
+                            <span class="project-tag">Meta-Analysis</span>
+                            <span class="project-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3>Predictive Modeling of Cognitive Performance Using Multimodal Data</h3>
+                    <p class="publication-details">Journal of Cognitive Neuroscience, 2024</p>
+                    <p class="publication-description">A comprehensive study on using machine learning to predict cognitive performance from combined EEG and behavioral data.</p>
+                </div>
+                <div class="publication-item">
+                    <h3>Statistical Approaches to Understanding Neural Connectivity Patterns</h3>
+                    <p class="publication-details">NeuroImage, 2023</p>
+                    <p class="publication-description">Novel statistical methods for analyzing functional connectivity in neuroimaging data.</p>
+                </div>
+                <div class="publication-item">
+                    <h3>Data-Driven Insights into Stress Response Mechanisms</h3>
+                    <p class="publication-details">Biological Psychology, 2023</p>
+                    <p class="publication-description">Large-scale analysis of physiological stress responses using advanced analytics techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in collaborating on research projects and discussing new opportunities in data science and psychology.</p>
+                <div class="contact-links">
+                    <a href="mailto:brown.james.phd@gmail.com" class="contact-link">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/jamesmbrownphd" class="contact-link" target="_blank">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/bjames1" class="contact-link" target="_blank">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=YOUR_ID" class="contact-link" target="_blank">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14v7"></path>
+                        </svg>
+                        Google Scholar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 James Michael Brown. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
