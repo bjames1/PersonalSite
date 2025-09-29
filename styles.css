@@ -627,4 +627,34 @@ section {
     .experience-content li {
         font-size: 0.9rem;
     }
+
+    .project-image {
+        height: 250px;
+        background-size: contain;
+        background-color: #1a1a2e;
+    }
+
+    .project-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-image {
+        height: 280px;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-image {
+        height: 220px;
+        background-size: cover;
+        background-position: center;
+    }
 }
