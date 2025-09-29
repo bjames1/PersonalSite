@@ -1,0 +1,23 @@
+Warfighter Performance Optimization
+Advanced agent-powered workflow using Claude 3.5 to analyze human performance data and deliver mission-critical optimization recommendations
+
+Trainee Success Prediction Model
+Random Forest model predicting pass/fail outcomes for Air Force trainees, enabling early intervention strategies
+
+NLP Text Analysis Platform
+Interactive application using Hugging Face, spaCy, and BERTopic for topic extraction, sentiment analysis, and text summarization
+
+War-Gaming Simulation Chatbot
+LLM-powered chatbot enabling non-technical users to query and analyze war-gaming simulation outputs
+
+Neo4j Knowledge Graph Visualizer
+Custom visualization tools for knowledge graphs supporting $50K cybersecurity initiative
+
+Air Force Performance Dashboard
+Power BI dashboard analyzing human performance trends across training wings for command-level decision support
+
+EHR Error Pattern Detection
+NLP system for detecting and analyzing error patterns in unstructured electronic health records data
+
+Warrior Games Analytics Platform
+Real-time analytics and biometric monitoring system for athletes using wearable readiness and recovery metrics
