@@ -364,19 +364,23 @@ section {
     color: var(--text-light);
 }
 
-.experience {
+.experience, .teaching {
     padding: 80px 0;
     background-color: var(--bg-white);
 }
 
-.experience-timeline {
+.teaching {
+    background-color: var(--bg-light);
+}
+
+.experience-timeline, .teaching-timeline {
     max-width: 900px;
     margin: 0 auto;
     position: relative;
     padding: 20px 0;
 }
 
-.experience-timeline::before {
+.experience-timeline::before, .teaching-timeline::before {
     content: '';
     position: absolute;
     left: 50px;
@@ -386,12 +390,12 @@ section {
     background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
 }
 
-.experience-item {
+.experience-item, .teaching-item {
     position: relative;
     padding: 20px 0 40px 80px;
 }
 
-.experience-item::before {
+.experience-item::before, .teaching-item::before {
     content: '';
     position: absolute;
     left: 44px;
@@ -404,7 +408,7 @@ section {
     box-shadow: 0 0 0 3px var(--primary-color);
 }
 
-.experience-date {
+.experience-date, .teaching-date {
     position: absolute;
     left: -150px;
     top: 28px;
@@ -415,7 +419,7 @@ section {
     font-weight: 500;
 }
 
-.experience-content {
+.experience-content, .teaching-content {
     background: var(--bg-light);
     padding: 25px;
     border-radius: 12px;
@@ -423,30 +427,34 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.experience-content:hover {
+.teaching-content {
+    background: var(--bg-white);
+}
+
+.experience-content:hover, .teaching-content:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
 }
 
-.experience-content h3 {
+.experience-content h3, .teaching-content h3 {
     color: var(--text-dark);
     font-size: 1.3rem;
     margin-bottom: 5px;
 }
 
-.experience-content h4 {
+.experience-content h4, .teaching-content h4 {
     color: var(--primary-color);
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-.experience-content ul {
+.experience-content ul, .teaching-content ul {
     list-style: none;
     padding: 0;
 }
 
-.experience-content li {
+.experience-content li, .teaching-content li {
     position: relative;
     padding-left: 25px;
     margin-bottom: 12px;
@@ -454,7 +462,7 @@ section {
     line-height: 1.6;
 }
 
-.experience-content li::before {
+.experience-content li::before, .teaching-content li::before {
     content: '▸';
     position: absolute;
     left: 0;
@@ -586,23 +594,23 @@ section {
         align-items: center;
     }
 
-    .experience-timeline {
+    .experience-timeline, .teaching-timeline {
         padding: 10px 0;
     }
 
-    .experience-timeline::before {
+    .experience-timeline::before, .teaching-timeline::before {
         left: 20px;
     }
 
-    .experience-item {
+    .experience-item, .teaching-item {
         padding: 20px 0 30px 50px;
     }
 
-    .experience-item::before {
+    .experience-item::before, .teaching-item::before {
         left: 14px;
     }
 
-    .experience-date {
+    .experience-date, .teaching-date {
         position: relative;
         left: 0;
         top: 0;
@@ -612,19 +620,19 @@ section {
         font-size: 0.85rem;
     }
 
-    .experience-content {
+    .experience-content, .teaching-content {
         padding: 20px;
     }
 
-    .experience-content h3 {
+    .experience-content h3, .teaching-content h3 {
         font-size: 1.1rem;
     }
 
-    .experience-content h4 {
+    .experience-content h4, .teaching-content h4 {
         font-size: 1rem;
     }
 
-    .experience-content li {
+    .experience-content li, .teaching-content li {
         font-size: 0.9rem;
     }
 
